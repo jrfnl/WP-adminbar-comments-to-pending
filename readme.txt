@@ -21,11 +21,6 @@ If you like this plugin, please [rate and/or review](http://wordpress.org/suppor
 
 
 
-== Frequently Asked Questions ==
-
-= None so far =
-
-
 == Changelog ==
 
 = 1.0 (2014-05-26) =
