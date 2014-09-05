@@ -2,22 +2,22 @@
 /**
  * Adminbar Link Comments to Pending
  *
- * @package		WordPress\Plugins\Adminbar Link Comments to Pending
- * @author		Juliette Reinders Folmer <wpplugins_nospam@adviesenzo.nl>
- * @link		https://github.com/jrfnl/WP-adminbar-comments-to-pending
- * @version		1.0
+ * @package     WordPress\Plugins\Adminbar Link Comments to Pending
+ * @author      Juliette Reinders Folmer <wpplugins_nospam@adviesenzo.nl>
+ * @link        https://github.com/jrfnl/WP-adminbar-comments-to-pending
+ * @version     1.0
  *
- * @copyright	2013-2014 Juliette Reinders Folmer
- * @license		http://creativecommons.org/licenses/GPL/2.0/ GNU General Public License, version 2 or higher
+ * @copyright   2013-2014 Juliette Reinders Folmer
+ * @license     http://creativecommons.org/licenses/GPL/2.0/ GNU General Public License, version 2 or higher
  *
  * @wordpress-plugin
- * Plugin Name:	Adminbar Link Comments to Pending
- * Plugin URI:	http://wordpress.org/plugins/adminbar-link-comments-to-pending/
- * Description:	Changes the link from the Adminbar comments bubble to go straight to the 'Pending' comments queue.
- * Version:		1.0
- * Author:		Juliette Reinders Folmer
- * Author URI:	http://www.adviesenzo.nl/
- * Copyright:	2013-2014 Juliette Reinders Folmer
+ * Plugin Name: Adminbar Link Comments to Pending
+ * Plugin URI:  http://wordpress.org/plugins/adminbar-link-comments-to-pending/
+ * Description: Changes the link from the Adminbar comments bubble to go straight to the 'Pending' comments queue.
+ * Version:     1.0
+ * Author:      Juliette Reinders Folmer
+ * Author URI:  http://www.adviesenzo.nl/
+ * Copyright:   2013-2014 Juliette Reinders Folmer
  */
 
 // Avoid direct calls to this file
