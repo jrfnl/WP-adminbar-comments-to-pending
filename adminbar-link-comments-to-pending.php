@@ -27,21 +27,26 @@ if ( ! function_exists( 'add_action' ) ) {
 	exit();
 }
 
-/**
- * Change the comments link in the admin bar to go straight to the moderation queue
- */
 if ( ! function_exists( 'adminbar_comments_link_to_pending' ) ) {
 
+
+	/**
+	 * Change the comments link in the admin bar to go straight to the moderation queue.
+	 *
+	 * @param object $wp_admin_bar
+	 */
 	function adminbar_comments_link_to_pending( $wp_admin_bar ) {
-	
+
 		$node = $wp_admin_bar->get_node( 'comments' );
-	
+
 		// check if the comments node exists
-		if( $node ) {
+		if ( $node ) {
 			$args = $node;
 			$args->href	= admin_url( 'edit-comments.php?comment_status=moderated' );
-			$wp_admin_bar->add_node($args);
+			$wp_admin_bar->add_node( $args );
 		}
 	}
+
+
 	add_action( 'admin_bar_menu', 'adminbar_comments_link_to_pending', 1000 );
 }
