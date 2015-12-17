@@ -1,6 +1,6 @@
 <?php
 /**
- * Adminbar Link Comments to Pending
+ * Adminbar Link Comments to Pending.
  *
  * @package     WordPress\Plugins\Adminbar Link Comments to Pending
  * @author      Juliette Reinders Folmer <wpplugins_nospam@adviesenzo.nl>
@@ -20,7 +20,7 @@
  * Copyright:   2013-2014 Juliette Reinders Folmer
  */
 
-// Avoid direct calls to this file
+// Avoid direct calls to this file.
 if ( ! function_exists( 'add_action' ) ) {
 	header( 'Status: 403 Forbidden' );
 	header( 'HTTP/1.1 403 Forbidden' );
@@ -28,25 +28,21 @@ if ( ! function_exists( 'add_action' ) ) {
 }
 
 if ( ! function_exists( 'adminbar_comments_link_to_pending' ) ) {
-
-
 	/**
 	 * Change the comments link in the admin bar to go straight to the moderation queue.
 	 *
-	 * @param object $wp_admin_bar
+	 * @param object $wp_admin_bar The admin bar object. Gets passed by reference.
 	 */
 	function adminbar_comments_link_to_pending( $wp_admin_bar ) {
 
 		$node = $wp_admin_bar->get_node( 'comments' );
 
-		// check if the comments node exists
+		// Check if the comments node exists.
 		if ( $node ) {
 			$args = $node;
 			$args->href	= admin_url( 'edit-comments.php?comment_status=moderated' );
 			$wp_admin_bar->add_node( $args );
 		}
 	}
-
-
 	add_action( 'admin_bar_menu', 'adminbar_comments_link_to_pending', 1000 );
 }
