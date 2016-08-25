@@ -39,8 +39,8 @@ if ( ! function_exists( 'adminbar_comments_link_to_pending' ) ) {
 
 		// Check if the comments node exists.
 		if ( $node ) {
-			$args = $node;
-			$args->href	= admin_url( 'edit-comments.php?comment_status=moderated' );
+			$args       = $node;
+			$args->href = admin_url( 'edit-comments.php?comment_status=moderated' );
 			$wp_admin_bar->add_node( $args );
 		}
 	}
