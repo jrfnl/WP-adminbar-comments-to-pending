@@ -3,7 +3,7 @@ Contributors: jrf
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=995SSNDTCVBJG
 Tags: adminbar, admin bar, comments, unapproved, pending
 Requires at least: 3.3
-Tested up to: 4.5
+Tested up to: 4.8
 Stable tag: 1.0
 License: GPLv2
 
@@ -24,6 +24,9 @@ If you like this plugin, please [rate and/or review](http://wordpress.org/suppor
 == Changelog ==
 
 = Trunk =
+* Tested and found compatible with WP 4.8.
+* Tested and found compatible with WP 4.7.
+* Tested and found compatible with WP 4.6.
 * Tested and found compatible with WP 4.5.
 * Tested and found compatible with WP 4.4.
 * Tested and found compatible with WP 4.3.

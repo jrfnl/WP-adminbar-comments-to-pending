@@ -7,7 +7,7 @@
  * @link        https://github.com/jrfnl/WP-adminbar-comments-to-pending
  * @version     1.0
  *
- * @copyright   2013-2016 Juliette Reinders Folmer
+ * @copyright   2013-2017 Juliette Reinders Folmer
  * @license     http://creativecommons.org/licenses/GPL/2.0/ GNU General Public License, version 2 or higher
  *
  * @wordpress-plugin
@@ -17,7 +17,7 @@
  * Version:     1.0
  * Author:      Juliette Reinders Folmer
  * Author URI:  http://www.adviesenzo.nl/
- * Copyright:   2013-2016 Juliette Reinders Folmer
+ * Copyright:   2013-2017 Juliette Reinders Folmer
  */
 
 // Avoid direct calls to this file.
