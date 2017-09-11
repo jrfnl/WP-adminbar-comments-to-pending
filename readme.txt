@@ -31,7 +31,9 @@ If you like this plugin, please [rate and/or review](http://wordpress.org/suppor
 * Tested and found compatible with WP 4.1.
 * Tested and found compatible with WP 4.0.
 
-= 1.0 (2014-05-26) =
+= 1.0 =
+_Release date: 2014-05-26_
+
 * Initial release
 
 
