@@ -7,7 +7,7 @@
  * @link        https://github.com/jrfnl/WP-adminbar-comments-to-pending
  * @version     1.0.1
  *
- * @copyright   2013-2018 Juliette Reinders Folmer
+ * @copyright   2013-2020 Juliette Reinders Folmer
  * @license     http://creativecommons.org/licenses/GPL/2.0/ GNU General Public License, version 2 or higher
  *
  * @wordpress-plugin
@@ -17,7 +17,7 @@
  * Version:     1.0.1
  * Author:      Juliette Reinders Folmer
  * Author URI:  http://www.adviesenzo.nl/
- * Copyright:   2013-2018 Juliette Reinders Folmer
+ * Copyright:   2013-2020 Juliette Reinders Folmer
  */
 
 // Avoid direct calls to this file.
@@ -32,6 +32,8 @@ if ( ! function_exists( 'adminbar_comments_link_to_pending' ) ) {
 	 * Change the comments link in the admin bar to go straight to the moderation queue.
 	 *
 	 * @param object $wp_admin_bar The admin bar object. Gets passed by reference.
+	 *
+	 * @return void
 	 */
 	function adminbar_comments_link_to_pending( $wp_admin_bar ) {
 

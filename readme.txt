@@ -6,6 +6,7 @@ Requires at least: 3.3
 Tested up to: 4.9
 Stable tag: 1.0.1
 License: GPLv2
+Requires PHP: 5.2.6
 
 Changes the link from the Adminbar comments bubble to go straight to the 'Pending' comments queue.
 
